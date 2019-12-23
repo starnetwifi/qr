@@ -1,4 +1,4 @@
-# qrlogin - HMS
+# qrlogin
 ## QR Code scanner for login hotspot MikroTik
 
 ### Cara pakai
