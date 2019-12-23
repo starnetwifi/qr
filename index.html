@@ -4,7 +4,7 @@
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="theme-color" content="#000000" />
-<title>QR CODE SCANNER</title>
+<title>STARNET QR CODE SCANNER</title>
   <style>
     body{
       background-color: #000000;
@@ -68,6 +68,12 @@
     <div id="main">
       <div id="mainbody">
         <div class="camera" id="outdiv"></div>
+        <div class="progress">
+          QR Login <span id="nama_hotspot"></span>
+          <div id="hasil"></div>
+        </div>
+        <div id="camera">
+            <div id="camera-inside"></div>
         <div style="display: table;">
           <div style="display: table-row;">
             <div style="display: table-cell; padding:3px;">
@@ -81,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div>MIKHMON QR CODE SCANNER <br>Powered by <a href="http://www.webqr.com">webqr.com</a></div>
+    <div>STARNET QR CODE SCANNER <br>Design by <a href="http://fb.com/airra13">Ahmad Jaelani</a></div>
   </center>
 <canvas style="display:none;" id="qr-canvas" width="800" height="600"></canvas>
 <script type="text/javascript">load();</script>
