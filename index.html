@@ -1,71 +1,19 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="theme-color" content="#000000" />
-<title>STARNET QR CODE SCANNER</title>
+<title>QR LOGIN</title>
   <style>
-    body{
-      background-color: #000000;
-      color :#ffffff;
-    }
-    video {
-      width: 100%    !important;
-      height: auto   !important;
-    }
-    .btn{
-      margin-top:5px;
-      margin-bottom:10px;
-      padding:5px;
-      background-color: #f2f2f2;
-      color: #000000;
-      border-radius:3px;
-      width: 150px;
-      cursor: pointer;
-    }
-    .camera{
-      width: 95%;
-    }
-    a{
-      text-decoration: none;
-      color:#20a8d8;
-    }
-    @font-face {
-      font-family: 'fontello';
-      src: url('./font/fontello.eot?14907215');
-      src: url('./font/fontello.eot?14907215#iefix') format('embedded-opentype'),
-           url('./font/fontello.woff?14907215') format('woff'),
-           url('./font/fontello.ttf?14907215') format('truetype'),
-           url('./font/fontello.svg?14907215#fontello') format('svg');
-      font-weight: normal;
-      font-style: normal;
-    }
-    .icon
-    {
-      font-family: "fontello";
-      font-style: normal;
-      font-weight: normal;
-      speak: none;
-      display: inline-block;
-      text-decoration: inherit;
-      width: 1em;
-      margin-right: .2em;
-      text-align: center;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1em;
-      margin-left: .2em;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
+    video{width:100%!important;height:auto!important}#reload{margin-top:5px;margin-bottom:10px;padding:5px;background-color:#0336FF;color:#f3f4f5;border-radius:3px;width:150px;cursor:pointer}a{text-decoration:none;color:#0336FF}.progress{padding:10px;margin-top:5px}#camera{position:relative;width:auto;height:100%}#camera:after,#camera:before,#camera>:first-child:after,#camera>:first-child:before{position:absolute;width:80px;height:80px;border-color:red;border-style:solid;content:' '}#camera:before{top:0;left:0;border-width:5px 0 0 5px}#camera:after{top:0;right:0;border-width:5px 5px 0 0}#camera>:first-child:before{bottom:0;right:0;border-width:0 5px 5px 0}#camera>:first-child:after{bottom:0;left:0;border-width:0 0 5px 5px}#camera-inside{padding:10px;margin-bottom:-5px}#hasil{font-size:20px;font-weight:600px;background-color:#76ff03;color:#202020}
+
   </style>
 <script type="text/javascript" src="llqrcode.js"></script>
 <script type="text/javascript" src="webqr.js"></script>
 </head>
 <body>
   <center>
-     <center>
     <div id="main">
       <div id="mainbody">
         <div class="progress">
